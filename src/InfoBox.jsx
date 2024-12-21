@@ -12,7 +12,7 @@ export default function InfoBox({ info }) {
     "https://images.unsplash.com/photo-1722858343990-1604f540c15d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHVzdHklMjB3ZWF0aGVyfGVufDB8fDB8fHww";
 
   const hot_url =
-    "https://images.unsplash.com/photo-1553586635-60aba8bfda8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG90JTIwd2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D";
+    "https://img.freepik.com/free-vector/sunshine-background-poster_1284-9444.jpg?semt=ais_hybrid";
   const cold_url =
     "https://images.unsplash.com/photo-1668418321923-becc3ef20077?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sZCUyMHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D";
   const rainy_url =
@@ -21,9 +21,9 @@ export default function InfoBox({ info }) {
   return (
     <div className="InfoBox">
       <div className="cardContainer">
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 695 }}>
           <CardMedia
-            sx={{ height: 140 }}
+            sx={{ height: 210 }}
             image={
               info.humidity > 80
                 ? rainy_url

@@ -1,4 +1,46 @@
 .searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1px 36px;
+  background-color: #f0f8ff; /* Light background to match InfoBox */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px; /* Reduced max-width for a narrower form */
+  margin: 0 auto;
+  height: 250px;
+  margin-top: 100px;
+}
+
+form {
+  width: 100%;
   text-align: center;
-  margin-bottom: 25px;
+}
+
+.MuiTextField-root {
+  width: 100%; /* Text field takes full width but is narrower */
+  margin-bottom: 12px; /* Reduced space between input field and button */
+  font-size: 1rem; /* Slightly smaller font size */
+}
+
+.MuiButton-root {
+  font-size: 1rem; /* Slightly smaller button text */
+  padding: 8px 14px; /* Reduced padding */
+  width: 100%; /* Button takes full width but is narrower */
+  margin-top: 6px; /* Space between button and error message */
+  background-color: #4caf50; /* Green button for success */
+  color: white;
+}
+
+.MuiButton-root:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+p {
+  margin-top: 6px;
+  color: red; /* Error message in red */
+  font-size: 0.9rem; /* Slightly smaller error text */
+  font-weight: bold;
 }
